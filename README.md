@@ -1,10 +1,5 @@
 ![gVisor](g3doc/logo.png)
 
-[![Build status](https://badge.buildkite.com/3b159f20b9830461a71112566c4171c0bdfd2f980a8e4c0ae6.svg?branch=master)](https://buildkite.com/gvisor/pipeline)
-[![Issue reviver](https://github.com/google/gvisor/actions/workflows/issue_reviver.yml/badge.svg)](https://github.com/google/gvisor/actions/workflows/issue_reviver.yml)
-[![CodeQL](https://github.com/google/gvisor/actions/workflows/codeql.yml/badge.svg)](https://github.com/google/gvisor/actions/workflows/codeql.yml)
-[![gVisor chat](https://badges.gitter.im/gvisor/community.png)](https://gitter.im/gvisor/community)
-[![code search](https://img.shields.io/badge/code-search-blue)](https://cs.opensource.google/gvisor/gvisor)
 
 ## What is gVisor?
 
@@ -156,30 +151,3 @@ GO111MODULE=on sudo -E go build -o /usr/local/bin/containerd-shim-runsc-v1 gviso
 Note that this branch is supported in a best effort capacity, and direct
 development on this branch is not supported. Development should occur on the
 `master` branch, which is then reflected into the `go` branch.
-
-## Community & Governance
-
-See [GOVERNANCE.md](GOVERNANCE.md) for project governance information.
-
-The [gvisor-users mailing list][gvisor-users-list] and
-[gvisor-dev mailing list][gvisor-dev-list] are good starting points for
-questions and discussion.
-
-## Security Policy
-
-See [SECURITY.md](SECURITY.md).
-
-## Contributing
-
-See [Contributing.md](CONTRIBUTING.md).
-
-[bazel]: https://bazel.build
-[docker]: https://www.docker.com
-[gvisor-users-list]: https://groups.google.com/forum/#!forum/gvisor-users
-[gvisor-dev]: https://gvisor.dev
-[gvisor-dev-list]: https://groups.google.com/forum/#!forum/gvisor-dev
-[linux]: https://en.wikipedia.org/wiki/Linux_kernel_interfaces
-[oci]: https://www.opencontainers.org
-[old-linux]: https://gvisor.dev/docs/user_guide/networking/#gso
-[sandbox]: https://en.wikipedia.org/wiki/Sandbox_(computer_security)
-[bazelisk]: https://github.com/bazelbuild/bazelisk
